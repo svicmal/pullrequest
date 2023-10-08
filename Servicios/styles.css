@@ -1,0 +1,125 @@
+/* Resetear márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para el título */
+header h1 {
+    font-size: 24px;
+}
+
+/* Estilo para la descripción más pequeña */
+header p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Espacio en blanco */
+header br {
+    margin-top: 20px;
+}
+
+/* Estilo para la sección de doble columna */
+.doble-columna {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.columna {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilo para los títulos de la doble columna */
+.doble-columna h2 {
+    font-size: 18px;
+}
+
+/* Estilo para las imágenes de la doble columna */
+.doble-columna img {
+    max-width: 100%;
+}
+
+/* Estilo para las descripciones de la doble columna */
+.doble-columna p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilo para las listas de precios */
+.doble-columna ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.doble-columna ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para la sección de triple columna */
+.triple-columna {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Estilo para las imágenes de la triple columna */
+.triple-columna img {
+    max-width: 100%;
+}
+
+/* Estilo para los títulos de la triple columna */
+.triple-columna h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilo para las descripciones de la triple columna */
+.triple-columna p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ /* Menu */
+ #menu {
+    background-color: #333;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .navi li {
+    display: inline;
+ }
+ .navi li a {
+	
+	font-size:30px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+ }
+ 
+ .navi li a:hover{
+	
+
+ }
